@@ -52,7 +52,19 @@ const CasePage = () => {
           <h1 className="text-2xl sm:text-4xl font-bold text-white uppercase tracking-tighter leading-none mb-10 shadow-sky-500/20">
             {caseData.title}
           </h1>
-          <div className="flex flex-wrap gap-3">
+          {caseData.header?.badges?.length > 0 && (
+  <div className="flex flex-wrap gap-3">
+    {caseData.header.badges.map((badge, index) => (
+      <div
+        key={index}
+        className="inline-block px-4 py-2 bg-sky-500/10 border border-sky-500/20 rounded font-semibold text-[10px] text-sky-400 uppercase tracking-widest"
+      >
+        {badge.label}:: {badge.value}
+      </div>
+    ))}
+  </div>
+)}
+          {/* <div className="flex flex-wrap gap-3">
             <div className="inline-block px-4 py-2 bg-sky-500/10 border border-sky-500/20 rounded font-semibold text-[10px] text-sky-400 uppercase tracking-widest">
               Sarcasm:: {caseData.sarcasmLevel}
             </div>
@@ -62,7 +74,7 @@ const CasePage = () => {
             <div className="inline-block px-4 py-2 bg-sky-500/10 border border-sky-500/20 rounded font-semibold text-[10px] text-sky-400 uppercase tracking-widest">
               Tolerance:: {caseData.abstractionTolerance}
             </div>
-          </div>
+          </div> */}
         </header>
 
         <main className="space-y-4">

@@ -2,7 +2,7 @@ export const blogVsBrain = {
   id: "LOG-01",
   title: "🧠 Blog vs Brain: The Art of Not Saying It Directly 😌📄",
   status: "resolved",
-  readTime: "3 min",
+  readTime: "3 min read",
   emoji: "🧠",
   // trigger: "Blog vs Brain: A Miscommunication Incident (aka Why I Got Irritated for No Reason) 😐📄",
   investigation: `Today I read a personal blog.
@@ -54,10 +54,18 @@ And honestly, once I figured that out, everything became funny instead of annoyi
 
 Because it turns out I don’t hate reading.
 I just have… very strict content review standards 😌📉`,
-  sarcasmLevel: "Extreme",
-  signalLevel: "High",
-  abstractionTolerance: "Low",
+  // sarcasmLevel: "Extreme",
+  // signalLevel: "High",
+  // abstractionTolerance: "Low",
   timestamp: "2024-06-08",
+  header: {
+    badges: [
+      { label: "Sarcasm", value: "Extreme" },
+      { label: "Signal", value: "High" },
+      { label: "Tolerance", value: "Low" }
+    ]
+  },
+
   sections: [
     // {
     //   label: "Triggering_Incident",
