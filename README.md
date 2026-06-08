@@ -1,16 +1,53 @@
-# React + Vite
+# 🧠 Nidhi.exe
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A runtime system for thoughts that were not meant to be stored… but got stored anyway.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📡 What this is
 
-## React Compiler
+Not a blog.  
+Not a portfolio.  
+Not a self-help corner pretending to be deep.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This is:
 
-## Expanding the ESLint configuration
+> A collection of observations, misinterpretations, rants, and debugging logs of how my brain processes reality.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Some entries are useful.  
+Some are unnecessary.  
+All are honest.
+
+---
+
+## ⚙️ Core Principle
+
+> Signal > Noise
+
+If something takes 12 paragraphs to say 1 idea, the system gets suspicious.
+
+---
+
+## 🧪 System Behavior
+
+This system tends to:
+
+- Over-analyze simple things 🤨  
+- Strip unnecessary abstraction 🧹  
+- Reject overly decorative writing 😐  
+- Treat thoughts like production logs 📄  
+- Occasionally roast novels (unintentionally) 📚💀  
+
+---
+
+## 🧠 What you’ll find here
+
+- 🧩 Investigation logs (why something irritated me)
+- 📊 Findings (what I actually discovered)
+- 🧾 Resolutions (what changed in understanding)
+- 🚫 404 entries (thoughts that never got written)
+- 😌 Sarcasm (unfiltered but controlled)
+
+---
+
+## 📁 Structure
