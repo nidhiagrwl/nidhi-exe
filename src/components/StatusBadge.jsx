@@ -11,7 +11,9 @@ const StatusBadge = ({ status }) => {
       case 'resolved':
         return 'text-emerald-400 bg-emerald-400/10 border-emerald-400/20';
       case 'wondering':
-        return 'text-emerald-400 bg-emerald-400/10 border-emerald-400/20';
+        return 'text-fuchsia-300 bg-fuchsia-500/10 border-fuchsia-400/20';
+        case 'deprecated':
+          return 'text-amber-300 bg-amber-500/10 border-amber-400/20';
       default:
         return 'text-slate-400 bg-slate-400/10 border-slate-400/20';
     }
